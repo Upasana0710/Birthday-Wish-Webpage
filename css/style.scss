@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine');
+body{
+    background-color: rgb(235, 242, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .wrapper{
+        background-color: rgb(147, 190, 207);
+        box-shadow: -2px 2px 20px rgb(114, 108, 108);
+        position: absolute;
+        border-radius: 15px;
+        width: 90%;
+        max-width: 600px;
+        height:auto;
+        // width: 500px;
+        .wish{
+            text-align: center;
+            color: black;
+            font-family: 'Tangerine', serif;
+            font-size: 30px;
+            text-shadow: 4px 4px 4px rgb(113, 110, 110);
+            margin: 20px;
+            h3{
+                margin: 4px;
+                color:rgb(63, 61, 61)
+            }
+            h2{
+                margin: 8px;
+            }
+        }
+        .img-container{
+            // padding-top: 5px;
+            padding-bottom: 5px;
+            img{
+                max-height:90%;
+                max-width: 80%;
+                padding-left: 10%;
+                padding-right: 10%;
+            }
+        }
+        .quote{
+            p{
+                font-family: 'Fuzzy Bubbles', cursive;
+                font-weight: 900;
+                font-size: large;
+                color: rgb(63, 61, 61);
+                word-wrap: break-word;
+                object-fit: contain;
+                text-align: center;
+                margin: 20px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 680px)
+{
+    .wish{
+        font-size: 24px !important;
+    }
+    .quote{
+        p{
+            font-size: 14px !important;
+        }
+    }
+}
